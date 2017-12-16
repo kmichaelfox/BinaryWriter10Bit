@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2012
+Project("{0323FE74-3A30-9A24-8605-E8A6AA8BA1AC}") = "BinaryWriter10Bit", "BinaryWriter10Bit.vcxproj", "{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Debug64|x64 = Debug64|x64
+		Release64|x64 = Release64|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}.Debug|Win32.Build.0 = Debug|Win32
+		{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}.Release|Win32.ActiveCfg = Release|Win32
+		{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}.Release|Win32.Build.0 = Release|Win32
+		{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}.Debug64|x64.ActiveCfg = Debug64|x64
+		{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}.Debug64|x64.Build.0 = Debug64|x64
+		{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}.Release64|x64.ActiveCfg = Release64|x64
+		{F7A4BC10-AD9D-9E02-7673-BBDE17F80CA0}.Release64|x64.Build.0 = Release64|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

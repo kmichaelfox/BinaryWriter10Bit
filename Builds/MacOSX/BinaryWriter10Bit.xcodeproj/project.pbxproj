@@ -1,0 +1,161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+		D7E7B9BC2C93897FA0AB9C0B = {isa = PBXBuildFile; fileRef = A1DF7B0E4C1E116DCE4C29FC; };
+		5DB121CB8353B9BA88DAD5AB = {isa = PBXBuildFile; fileRef = D5DB27AE45D84A9031DA836D; };
+		069C3878BB6D2BDF1A252707 = {isa = PBXBuildFile; fileRef = 758106F0BBFA13AEB5F43B47; };
+		612007663C4B9204D465862A = {isa = PBXBuildFile; fileRef = A169EBE875B81F4F88D48751; };
+		7D3D336FFEFAD03045DC8CB8 = {isa = PBXBuildFile; fileRef = 18EE74369532558F216039CD; };
+		C7D470985443282D683BE8AF = {isa = PBXBuildFile; fileRef = CE05F63D36A4093B10737D3E; };
+		0D2637E81928A4E53D424964 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NpyFile.h; path = ../../Source/NpyFile.h; sourceTree = "SOURCE_ROOT"; };
+		0D65A8E4AEA228794D36F425 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FileMemoryBlock.h; path = ../../Source/FileMemoryBlock.h; sourceTree = "SOURCE_ROOT"; };
+		18EE74369532558F216039CD = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OpenEphysLib.cpp; path = ../../Source/OpenEphysLib.cpp; sourceTree = "SOURCE_ROOT"; };
+		20B476DE66137E148352919C = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryRecording.h; path = ../../Source/BinaryRecording.h; sourceTree = "SOURCE_ROOT"; };
+		758106F0BBFA13AEB5F43B47 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryRecording.cpp; path = ../../Source/BinaryRecording.cpp; sourceTree = "SOURCE_ROOT"; };
+		A169EBE875B81F4F88D48751 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NpyFile.cpp; path = ../../Source/NpyFile.cpp; sourceTree = "SOURCE_ROOT"; };
+		A1DF7B0E4C1E116DCE4C29FC = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryWriter10Bit.bundle; sourceTree = "BUILT_PRODUCTS_DIR"; };
+		CD8BB6467E5E6FCD0CBF4C4A = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SequentialBlockFile.h; path = ../../Source/SequentialBlockFile.h; sourceTree = "SOURCE_ROOT"; };
+		CE05F63D36A4093B10737D3E = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SequentialBlockFile.cpp; path = ../../Source/SequentialBlockFile.cpp; sourceTree = "SOURCE_ROOT"; };
+		D5DB27AE45D84A9031DA836D = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = "SOURCE_ROOT"; };
+		FC644850A1B9A2F9CDE46DA5 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-OpenEphys_Plugin.plist"; path = "Info-OpenEphys_Plugin.plist"; sourceTree = "SOURCE_ROOT"; };
+		5DDB52FAD2C5F9637E74C24F = {isa = PBXGroup; children = (
+					758106F0BBFA13AEB5F43B47,
+					20B476DE66137E148352919C,
+					0D65A8E4AEA228794D36F425,
+					A169EBE875B81F4F88D48751,
+					0D2637E81928A4E53D424964,
+					18EE74369532558F216039CD,
+					CE05F63D36A4093B10737D3E,
+					CD8BB6467E5E6FCD0CBF4C4A, ); name = Source; sourceTree = "<group>"; };
+		EB441C1F2894BB2BC6859E75 = {isa = PBXGroup; children = (
+					5DDB52FAD2C5F9637E74C24F, ); name = BinaryWriter10Bit; sourceTree = "<group>"; };
+		F0C342F145E6EE7197ED09DF = {isa = PBXGroup; children = (
+					FC644850A1B9A2F9CDE46DA5,
+					D5DB27AE45D84A9031DA836D, ); name = Resources; sourceTree = "<group>"; };
+		0B965D6D696A4E4AC765A1FB = {isa = PBXGroup; children = (  ); name = Frameworks; sourceTree = "<group>"; };
+		3B9398D49217104F3F71286D = {isa = PBXGroup; children = (
+					A1DF7B0E4C1E116DCE4C29FC, ); name = Products; sourceTree = "<group>"; };
+		DE5760FF92A3BA6ED6FED57C = {isa = PBXGroup; children = (
+					EB441C1F2894BB2BC6859E75,
+					F0C342F145E6EE7197ED09DF,
+					0B965D6D696A4E4AC765A1FB,
+					3B9398D49217104F3F71286D, ); name = Source; sourceTree = "<group>"; };
+		8F6C7DDB9E223D32C9105355 = {isa = XCBuildConfiguration; buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JucePlugin_Build_OpenEphys=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000", );
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "$(PLUGIN_GUI_PROJECT_DIR)/JuceLibraryCode", "$(PLUGIN_GUI_PROJECT_DIR)/JuceLibraryCode/modules", "$(PLUGIN_GUI_PROJECT_DIR)/Source/Plugins/Headers", "$(PLUGIN_GUI_PROJECT_DIR)/Source/Plugins/CommonLibs", "$(inherited)");
+				INFOPLIST_FILE = Info-OpenEphys_Plugin.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/open-ephys/PlugIns/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
+				OTHER_LDFLAGS = "-bundle -undefined dynamic_lookup";
+				PRODUCT_BUNDLE_IDENTIFIER = org.open-ephys.BinaryWriter10Bit;
+				SDKROOT_ppc = macosx10.5;
+				WRAPPER_EXTENSION = bundle; }; name = Debug; };
+		44B01C7B27302C0AE20DC7E4 = {isa = XCBuildConfiguration; buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JucePlugin_Build_OpenEphys=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "$(PLUGIN_GUI_PROJECT_DIR)/JuceLibraryCode", "$(PLUGIN_GUI_PROJECT_DIR)/JuceLibraryCode/modules", "$(PLUGIN_GUI_PROJECT_DIR)/Source/Plugins/Headers", "$(PLUGIN_GUI_PROJECT_DIR)/Source/Plugins/CommonLibs", "$(inherited)");
+				INFOPLIST_FILE = Info-OpenEphys_Plugin.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/open-ephys/PlugIns/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
+				OTHER_LDFLAGS = "-bundle -undefined dynamic_lookup";
+				PRODUCT_BUNDLE_IDENTIFIER = org.open-ephys.BinaryWriter10Bit;
+				SDKROOT_ppc = macosx10.5;
+				WRAPPER_EXTENSION = bundle; }; name = Release; };
+		8D68C1B35C3C5DC9FF636EB7 = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PLUGIN_GUI_PROJECT_DIR = "../../../plugin-gui";
+				PRODUCT_NAME = "BinaryWriter10Bit";
+				WARNING_CFLAGS = "-Wreorder -Wno-inconsistent-missing-override";
+				ZERO_LINK = NO; }; name = Debug; };
+		110CA9A935C3073B325F5459 = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PLUGIN_GUI_PROJECT_DIR = "../../../plugin-gui";
+				PRODUCT_NAME = "BinaryWriter10Bit";
+				WARNING_CFLAGS = "-Wreorder -Wno-inconsistent-missing-override";
+				ZERO_LINK = NO; }; name = Release; };
+		D7E49D7A871D45F35F9375E9 = {isa = PBXTargetDependency; target = 42EB603C3B07606137444E90; };
+		6AEDA4C1A24F5BE7A781F992 = {isa = XCConfigurationList; buildConfigurations = (
+					8D68C1B35C3C5DC9FF636EB7,
+					110CA9A935C3073B325F5459, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		D6D3206F2DB2BB7F6D1D0AAD = {isa = XCConfigurationList; buildConfigurations = (
+					8F6C7DDB9E223D32C9105355,
+					44B01C7B27302C0AE20DC7E4, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		CF92FC56528B6E62B346AC0E = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+					5DB121CB8353B9BA88DAD5AB, ); runOnlyForDeploymentPostprocessing = 0; };
+		3744796FFD0554597F851BAB = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+					069C3878BB6D2BDF1A252707,
+					612007663C4B9204D465862A,
+					7D3D336FFEFAD03045DC8CB8,
+					C7D470985443282D683BE8AF, ); runOnlyForDeploymentPostprocessing = 0; };
+		B9C65DDF5A27900393E5AFBA = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (  ); runOnlyForDeploymentPostprocessing = 0; };
+		42EB603C3B07606137444E90 = {isa = PBXNativeTarget; buildConfigurationList = D6D3206F2DB2BB7F6D1D0AAD; buildPhases = (
+					CF92FC56528B6E62B346AC0E,
+					3744796FFD0554597F851BAB,
+					B9C65DDF5A27900393E5AFBA, ); buildRules = ( ); dependencies = (  ); name = "BinaryWriter10Bit (OpenEphys Plugin)"; productName = BinaryWriter10Bit; productReference = A1DF7B0E4C1E116DCE4C29FC; productType = "com.apple.product-type.bundle"; };
+		063DD9CF1F9C1D51FFAB8F6E = {isa = PBXProject; buildConfigurationList = 6AEDA4C1A24F5BE7A781F992; attributes = { LastUpgradeCheck = 0440; }; compatibilityVersion = "Xcode 3.2"; hasScannedForEncodings = 0; mainGroup = DE5760FF92A3BA6ED6FED57C; projectDirPath = ""; projectRoot = ""; targets = (42EB603C3B07606137444E90); };
+	};
+	rootObject = 063DD9CF1F9C1D51FFAB8F6E;
+}

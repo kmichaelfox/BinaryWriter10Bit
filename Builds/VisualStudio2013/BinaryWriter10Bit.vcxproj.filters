@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BinaryWriter10Bit">
+      <UniqueIdentifier>{9106B1B9-7401-4BAB-3DC6-A051AB407D19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryWriter10Bit\Source">
+      <UniqueIdentifier>{B1C82FAA-7A71-5B2F-B305-A6D396FAD6FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BinaryRecording.cpp">
+      <Filter>BinaryWriter10Bit\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NpyFile.cpp">
+      <Filter>BinaryWriter10Bit\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OpenEphysLib.cpp">
+      <Filter>BinaryWriter10Bit\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SequentialBlockFile.cpp">
+      <Filter>BinaryWriter10Bit\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BinaryRecording.h">
+      <Filter>BinaryWriter10Bit\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FileMemoryBlock.h">
+      <Filter>BinaryWriter10Bit\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NpyFile.h">
+      <Filter>BinaryWriter10Bit\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SequentialBlockFile.h">
+      <Filter>BinaryWriter10Bit\Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\resources.rc">
+      <Filter>Juce Library Code</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

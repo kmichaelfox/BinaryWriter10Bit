@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="NFJCEK" name="BinaryWriter10Bit" projectType="openephysplug"
+              version="1.0.0" bundleIdentifier="org.open-ephys.BinaryWriter10Bit"
+              includeBinaryInAppConfig="1" buildOpenEphys="1" pluginName="BinaryWriter10Bit"
+              pluginDesc="BinaryWriter10Bit" pluginManufacturer="Allen Institute"
+              pluginManufacturerCode="Manu" pluginCode="Nfjc" openEphysPluginType="2"
+              openEphysPluginProcessorType="7" openEphysFileSourcePluginSupportedExtensions=""
+              openEphysPluginDesiredWidth="150" buildVST="0" buildVST3="0"
+              jucerVersion="4.2.1">
+  <MAINGROUP id="SQuTvW" name="BinaryWriter10Bit">
+    <GROUP id="{6ED8A34E-213E-E627-D1E3-CD1C8AE7008C}" name="Source">
+      <FILE id="OsO5qh" name="BinaryRecording.cpp" compile="1" resource="0"
+            file="Source/BinaryRecording.cpp"/>
+      <FILE id="KnH1wJ" name="BinaryRecording.h" compile="0" resource="0"
+            file="Source/BinaryRecording.h"/>
+      <FILE id="Gb1FuH" name="FileMemoryBlock.h" compile="0" resource="0"
+            file="Source/FileMemoryBlock.h"/>
+      <FILE id="yTZ14H" name="NpyFile.cpp" compile="1" resource="0" file="Source/NpyFile.cpp"/>
+      <FILE id="sXPjp4" name="NpyFile.h" compile="0" resource="0" file="Source/NpyFile.h"/>
+      <FILE id="XIN3rD" name="OpenEphysLib.cpp" compile="1" resource="0"
+            file="Source/OpenEphysLib.cpp"/>
+      <FILE id="avg4lE" name="SequentialBlockFile.cpp" compile="1" resource="0"
+            file="Source/SequentialBlockFile.cpp"/>
+      <FILE id="Zcsbv6" name="SequentialBlockFile.h" compile="0" resource="0"
+            file="Source/SequentialBlockFile.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="BinaryWriter10Bit"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="BinaryWriter10Bit"/>
+      </CONFIGURATIONS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013" msvcOpenEphysProjectLocation="D:\Documents\Programming\plugin-gui-rc">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="BinaryWriter10Bit"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="BinaryWriter10Bit"/>
+        <CONFIGURATION name="Debug64" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="BinaryWriter10Bit"/>
+        <CONFIGURATION name="Release64" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="BinaryWriter10Bit"/>
+      </CONFIGURATIONS>
+    </VS2013>
+    <VS2012 targetFolder="Builds/VisualStudio2012">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="BinaryWriter10Bit"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="BinaryWriter10Bit"/>
+        <CONFIGURATION name="Debug64" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="BinaryWriter10Bit"/>
+        <CONFIGURATION name="Release64" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="BinaryWriter10Bit"/>
+      </CONFIGURATIONS>
+    </VS2012>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="BinaryWriter10Bit"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="BinaryWriter10Bit"/>
+      </CONFIGURATIONS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES/>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <OPENEPHYSPLUGIN/>
+</JUCERPROJECT>
